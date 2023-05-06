@@ -1,11 +1,16 @@
 {
-    "name": "nikolay-oskin/contents",
+    "name": "eimkasp/laravel-table-of-contents",
     "description": "Table of contents generator Laravel package for posts, news, articles or any other text",
     "keywords": ["laravel", "laravel-contents", "table-of-contents", "contents"],
     "authors": [
         {
             "name": "Nikolay Oskin",
             "email": "nickolayoskin@gmail.com",
+            "role": "Developer"
+        },
+         {
+            "name": "Eimantas Kasperiunas",
+            "email": "eim.kasp@gmail.com",
             "role": "Developer"
         }
     ],
