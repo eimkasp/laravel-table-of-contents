@@ -1,3 +1,6 @@
+This is a fork to introduce Laravel 10+ support for this package: https://github.com/NikolayOskin/contents
+
+
 # "Table of contents" generator Laravel package
 
 This package provides clickable Table Of Contents for your posts, news, articles etc based on h2-h6 html tags from input text.
@@ -107,10 +110,24 @@ public function show ($id, Contents $contents)
 
 ## Install
 
-For Laravel 5.5+
+For Laravel 8+
+*This package is not on composer so you need to manually add repository to composer.json
+
+Edit your composer.json file and include repository 
 
 ```sh
-composer require nikolay-oskin/contents
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/eimkasp/livewire-calendar-laravel-10"
+        }
+    ]
+```
+
+Install package
+
+```
+php composer.phar require eimkasp/laravel-table-of-contents
 ```
 
 To copy views to your resource/views directory:
